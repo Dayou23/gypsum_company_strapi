@@ -1,0 +1,35 @@
+{
+  "name": "gypsum_company",
+  "private": true,
+  "version": "0.1.0",
+  "description": "gypsum company",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.17.0",
+    "@strapi/plugin-i18n": "4.17.0",
+    "@strapi/plugin-users-permissions": "4.17.0",
+    "@strapi/provider-upload-cloudinary": "^4.17.0",
+    "@strapi/strapi": "4.17.0",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "zehana diyaa"
+  },
+  "strapi": {
+    "uuid": "9b6fd11a-d308-42f8-951d-8c3c18901a7e"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
