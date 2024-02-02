@@ -28,6 +28,18 @@
         "videos",
         "audios"
       ]
+    },
+    "titleAr": {
+      "type": "string"
+    },
+    "titleEn": {
+      "type": "string"
+    },
+    "descriptionAr": {
+      "type": "blocks"
+    },
+    "descriptionEn": {
+      "type": "blocks"
     }
   }
 }

@@ -377,6 +377,10 @@ export interface ApiProductProduct extends Schema.CollectionType {
     title: Attribute.String;
     description: Attribute.Blocks;
     image: Attribute.Media;
+    titleAr: Attribute.String;
+    titleEn: Attribute.String;
+    descriptionAr: Attribute.Blocks;
+    descriptionEn: Attribute.Blocks;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
